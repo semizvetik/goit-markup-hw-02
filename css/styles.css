@@ -1,0 +1,125 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --akcent-color: #2196F3;
+    --bgr-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+    
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.web {
+color: var(--akcent-color);
+}
+.site-nav,
+.contact-us,
+.button-list {
+    display: flex;
+}
+.site-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus
+ {
+    color: var(--akcent-color);
+}
+
+.contact-us .link {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-right: 50px;
+}
+.contact-us .link:hover,
+.contact-us .link:focus,
+.footer-contact:hover,
+.footer-contact:focus,
+.address:hover,
+.address:focus {
+    color: var(--akcent-color);
+}
+
+.list .button {
+    font-family: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.list .button:hover,
+.list .button:focus
+ {
+    background-color: var(--akcent-color);
+    color: var(--bgr-color);
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.product-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+    
+.address {
+
+    color: var(--bgr-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
